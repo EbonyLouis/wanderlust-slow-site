@@ -10,12 +10,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 <script>
   // Site Insights v2 — visitor tracking (never actually wired up to anything)
-  window.__siteInsights = { queue: [], version: "2.0.4" };
+  window.__siteInsights = { "queue": [], "version": "2.0.4" };
   for (let i = 0; i < 200000; i++) {
     window.__siteInsights.queue.push({ ts: i, evt: "noop" });
   }
 </script>
 
+<!-- Brand font, added for a rebrand that got shelved — never referenced in the CSS below -->
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
 <style>
@@ -71,7 +72,7 @@
 
 <div class="hero">
   <video autoplay muted loop playsinline preload="auto">
-    <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+    <source src="https://res.cloudinary.com/demo/video/upload/elephants.mp4" type="video/mp4">
   </video>
   <div class="hero-text">
     <h2>Gear built for the trail.</h2>
@@ -87,909 +88,909 @@
 <div class="featured-video">
   <h3>See the Ridge Pack in action</h3>
   <video controls preload="auto">
-    <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="video/mp4">
+    <source src="https://res.cloudinary.com/demo/video/upload/dog.mp4" type="video/mp4">
   </video>
 </div>
 
 <div class="grid">
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/1/2400/1600" alt="Leather Boots Pro">
+        <img src="https://picsum.photos/id/1/2400/1600" alt="The Backcountry Series">
         <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Leather Boots Pro</h3>
+          <span class="category">Staff Pick</span>
+          <h3>The Backcountry Series</h3>
+          <p class="price">$28</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/2/2400/1600" alt="The Trailhead Edition">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Trailhead Edition</h3>
+          <p class="price">$42</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/3/2400/1600" alt="The Backcountry Line">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Backcountry Line</h3>
+          <p class="price">$110</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/4/2400/1600" alt="The Longview No. 1">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Longview No. 1</h3>
+          <p class="price">$28</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/5/2400/1600" alt="The Ridgeline Edition">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Ridgeline Edition</h3>
+          <p class="price">$55</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/6/2400/1600" alt="The Drifter Edition">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The Drifter Edition</h3>
+          <p class="price">$110</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/7/2400/1600" alt="The Trailhead No. 1">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Trailhead No. 1</h3>
+          <p class="price">$128</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/8/2400/1600" alt="The Highline Set">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Highline Set</h3>
+          <p class="price">$28</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/9/2400/1600" alt="The Fireside No. 1">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Fireside No. 1</h3>
+          <p class="price">$74</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/10/2400/1600" alt="The Basecamp Edition">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Basecamp Edition</h3>
+          <p class="price">$74</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/11/2400/1600" alt="The Ridgeline No. 1">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Ridgeline No. 1</h3>
+          <p class="price">$34</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/12/2400/1600" alt="The Switchback Collection">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Switchback Collection</h3>
+          <p class="price">$128</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/13/2400/1600" alt="The Highline Series">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Highline Series</h3>
+          <p class="price">$96</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/14/2400/1600" alt="The Outpost No. 1">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Outpost No. 1</h3>
+          <p class="price">$34</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/15/2400/1600" alt="The Switchback Line">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Switchback Line</h3>
+          <p class="price">$128</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/16/2400/1600" alt="The Longview Edition">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Longview Edition</h3>
+          <p class="price">$34</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/17/2400/1600" alt="The Backcountry Edition">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Backcountry Edition</h3>
           <p class="price">$68</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/2/2400/1600" alt="Hiking Poles Classic">
+        <img src="https://picsum.photos/id/18/2400/1600" alt="The Switchback Edition">
         <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Hiking Poles Classic</h3>
+          <span class="category">Limited Run</span>
+          <h3>The Switchback Edition</h3>
           <p class="price">$34</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/3/2400/1600" alt="Base Layer Summit">
+        <img src="https://picsum.photos/id/19/2400/1600" alt="The Overland No. 1">
         <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Base Layer Summit</h3>
-          <p class="price">$28</p>
+          <span class="category">Bestseller</span>
+          <h3>The Overland No. 1</h3>
+          <p class="price">$74</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/4/2400/1600" alt="Wool Beanie Classic">
+        <img src="https://picsum.photos/id/20/2400/1600" alt="The North Fork Collection">
         <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Wool Beanie Classic</h3>
+          <span class="category">Staff Pick</span>
+          <h3>The North Fork Collection</h3>
           <p class="price">$55</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/5/2400/1600" alt="Down Jacket Classic">
+        <img src="https://picsum.photos/id/21/2400/1600" alt="The Fireside Line">
         <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Down Jacket Classic</h3>
-          <p class="price">$110</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/6/2400/1600" alt="Hiking Poles Summit">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Hiking Poles Summit</h3>
-          <p class="price">$128</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/7/2400/1600" alt="Trail Backpack Classic">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Trail Backpack Classic</h3>
-          <p class="price">$89</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/8/2400/1600" alt="Denim Jacket Classic">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Denim Jacket Classic</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/9/2400/1600" alt="Leather Boots Pro">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Leather Boots Pro</h3>
-          <p class="price">$89</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/10/2400/1600" alt="Sun Hat Trail">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Sun Hat Trail</h3>
-          <p class="price">$128</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/11/2400/1600" alt="Canvas Tote Summit">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Canvas Tote Summit</h3>
-          <p class="price">$110</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/12/2400/1600" alt="Flannel Shirt Pro">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Flannel Shirt Pro</h3>
-          <p class="price">$110</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/13/2400/1600" alt="Trail Gloves Trail">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Trail Gloves Trail</h3>
-          <p class="price">$128</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/14/2400/1600" alt="Wool Beanie Pro">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Wool Beanie Pro</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/15/2400/1600" alt="Wool Beanie Classic">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Wool Beanie Classic</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Fireside Line</h3>
           <p class="price">$34</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/16/2400/1600" alt="Denim Jacket Summit">
+        <img src="https://picsum.photos/id/22/2400/1600" alt="The Drifter Line">
         <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Denim Jacket Summit</h3>
-          <p class="price">$74</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/17/2400/1600" alt="Sun Hat Trail">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Sun Hat Trail</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Drifter Line</h3>
           <p class="price">$55</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/18/2400/1600" alt="Wool Beanie Ridge">
+        <img src="https://picsum.photos/id/23/2400/1600" alt="The Waypoint No. 1">
         <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Wool Beanie Ridge</h3>
-          <p class="price">$42</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/19/2400/1600" alt="Camp Mug Summit">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Camp Mug Summit</h3>
-          <p class="price">$89</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/20/2400/1600" alt="Down Jacket Classic">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Down Jacket Classic</h3>
-          <p class="price">$74</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/21/2400/1600" alt="Hiking Poles Pro">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Hiking Poles Pro</h3>
-          <p class="price">$74</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/22/2400/1600" alt="Denim Jacket Pro">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Denim Jacket Pro</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/23/2400/1600" alt="Sleeping Bag Summit">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Sleeping Bag Summit</h3>
-          <p class="price">$89</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/24/2400/1600" alt="Rain Jacket Trail">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Rain Jacket Trail</h3>
-          <p class="price">$42</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/25/2400/1600" alt="Down Jacket Ridge">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Down Jacket Ridge</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Waypoint No. 1</h3>
           <p class="price">$68</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/26/2400/1600" alt="Base Layer Summit">
+        <img src="https://picsum.photos/id/24/2400/1600" alt="The Backcountry Collection">
         <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Base Layer Summit</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Backcountry Collection</h3>
+          <p class="price">$28</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/25/2400/1600" alt="The Switchback Series">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The Switchback Series</h3>
           <p class="price">$74</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/27/2400/1600" alt="Rain Jacket Ridge">
+        <img src="https://picsum.photos/id/26/2400/1600" alt="The Overland Series">
         <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Rain Jacket Ridge</h3>
+          <span class="category">Staff Pick</span>
+          <h3>The Overland Series</h3>
+          <p class="price">$55</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/27/2400/1600" alt="The Trailhead Line">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The Trailhead Line</h3>
           <p class="price">$96</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/28/2400/1600" alt="Canvas Tote Pro">
+        <img src="https://picsum.photos/id/28/2400/1600" alt="The Outpost Line">
         <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Canvas Tote Pro</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Outpost Line</h3>
+          <p class="price">$96</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/29/2400/1600" alt="The Overland Edition">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Overland Edition</h3>
+          <p class="price">$55</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/30/2400/1600" alt="The Fireside No. 2">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The Fireside No. 2</h3>
+          <p class="price">$89</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/31/2400/1600" alt="The North Fork Edition">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The North Fork Edition</h3>
           <p class="price">$42</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/29/2400/1600" alt="Trail Shorts Ridge">
+        <img src="https://picsum.photos/id/32/2400/1600" alt="The Ridgeline Set">
         <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Trail Shorts Ridge</h3>
-          <p class="price">$34</p>
+          <span class="category">New Arrival</span>
+          <h3>The Ridgeline Set</h3>
+          <p class="price">$28</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/30/2400/1600" alt="Flannel Shirt Ridge">
+        <img src="https://picsum.photos/id/33/2400/1600" alt="The Basecamp Line">
         <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Flannel Shirt Ridge</h3>
-          <p class="price">$96</p>
+          <span class="category">Limited Run</span>
+          <h3>The Basecamp Line</h3>
+          <p class="price">$42</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/31/2400/1600" alt="Down Jacket Pro">
+        <img src="https://picsum.photos/id/34/2400/1600" alt="The Longview Series">
         <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Down Jacket Pro</h3>
-          <p class="price">$34</p>
+          <span class="category">Limited Run</span>
+          <h3>The Longview Series</h3>
+          <p class="price">$89</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/32/2400/1600" alt="Water Bottle Pro">
+        <img src="https://picsum.photos/id/35/2400/1600" alt="The Longview No. 1">
         <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Water Bottle Pro</h3>
+          <span class="category">Staff Pick</span>
+          <h3>The Longview No. 1</h3>
+          <p class="price">$110</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/36/2400/1600" alt="The Drifter Set">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Drifter Set</h3>
+          <p class="price">$28</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/37/2400/1600" alt="The Backcountry No. 2">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Backcountry No. 2</h3>
           <p class="price">$68</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/33/2400/1600" alt="Camp Mug Summit">
+        <img src="https://picsum.photos/id/38/2400/1600" alt="The Ridgeline Collection">
         <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Camp Mug Summit</h3>
-          <p class="price">$28</p>
+          <span class="category">Bestseller</span>
+          <h3>The Ridgeline Collection</h3>
+          <p class="price">$89</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/34/2400/1600" alt="Trekking Sandals Classic">
+        <img src="https://picsum.photos/id/39/2400/1600" alt="The Waypoint Series">
         <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Trekking Sandals Classic</h3>
-          <p class="price">$110</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/35/2400/1600" alt="Wool Socks Ridge">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Wool Socks Ridge</h3>
-          <p class="price">$128</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/36/2400/1600" alt="Rain Jacket Trail">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Rain Jacket Trail</h3>
-          <p class="price">$42</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/37/2400/1600" alt="Trail Gloves Trail">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Trail Gloves Trail</h3>
-          <p class="price">$96</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/38/2400/1600" alt="Leather Boots Trail">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Leather Boots Trail</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Waypoint Series</h3>
           <p class="price">$68</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/39/2400/1600" alt="Canvas Tote Classic">
+        <img src="https://picsum.photos/id/40/2400/1600" alt="The Drifter Series">
         <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Canvas Tote Classic</h3>
-          <p class="price">$128</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/40/2400/1600" alt="Wool Beanie Summit">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Wool Beanie Summit</h3>
-          <p class="price">$34</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/41/2400/1600" alt="Rain Jacket Summit">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Rain Jacket Summit</h3>
-          <p class="price">$110</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/42/2400/1600" alt="Denim Jacket Ridge">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Denim Jacket Ridge</h3>
-          <p class="price">$128</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/43/2400/1600" alt="Sleeping Bag Ridge">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Sleeping Bag Ridge</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/44/2400/1600" alt="Flannel Shirt Trail">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Flannel Shirt Trail</h3>
-          <p class="price">$96</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/45/2400/1600" alt="Leather Boots Classic">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Leather Boots Classic</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/46/2400/1600" alt="Water Bottle Pro">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Water Bottle Pro</h3>
-          <p class="price">$128</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/47/2400/1600" alt="Base Layer Classic">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Base Layer Classic</h3>
-          <p class="price">$28</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/48/2400/1600" alt="Canvas Tote Classic">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Canvas Tote Classic</h3>
-          <p class="price">$34</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/49/2400/1600" alt="Water Bottle Pro">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Water Bottle Pro</h3>
-          <p class="price">$110</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/50/2400/1600" alt="Denim Jacket Summit">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Denim Jacket Summit</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/51/2400/1600" alt="Base Layer Ridge">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Base Layer Ridge</h3>
-          <p class="price">$96</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/52/2400/1600" alt="Camp Chair Summit">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Camp Chair Summit</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/53/2400/1600" alt="Leather Boots Summit">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Leather Boots Summit</h3>
-          <p class="price">$74</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/54/2400/1600" alt="Trail Shorts Summit">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Trail Shorts Summit</h3>
-          <p class="price">$28</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/55/2400/1600" alt="Canvas Tote Summit">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Canvas Tote Summit</h3>
-          <p class="price">$74</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/56/2400/1600" alt="Hiking Poles Classic">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Hiking Poles Classic</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/57/2400/1600" alt="Rain Jacket Summit">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Rain Jacket Summit</h3>
-          <p class="price">$42</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/58/2400/1600" alt="Fleece Vest Classic">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Fleece Vest Classic</h3>
-          <p class="price">$34</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/59/2400/1600" alt="Down Jacket Pro">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Down Jacket Pro</h3>
-          <p class="price">$28</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/60/2400/1600" alt="Wool Beanie Classic">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Wool Beanie Classic</h3>
-          <p class="price">$42</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/61/2400/1600" alt="Camp Chair Summit">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Camp Chair Summit</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/62/2400/1600" alt="Canvas Tote Classic">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Canvas Tote Classic</h3>
-          <p class="price">$89</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/63/2400/1600" alt="Flannel Shirt Trail">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Flannel Shirt Trail</h3>
-          <p class="price">$96</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/64/2400/1600" alt="Trail Shorts Ridge">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Trail Shorts Ridge</h3>
-          <p class="price">$96</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/65/2400/1600" alt="Sleeping Bag Trail">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Sleeping Bag Trail</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/66/2400/1600" alt="Base Layer Ridge">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Base Layer Ridge</h3>
-          <p class="price">$28</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/67/2400/1600" alt="Canvas Tote Pro">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Canvas Tote Pro</h3>
-          <p class="price">$128</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/68/2400/1600" alt="Trekking Sandals Ridge">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Trekking Sandals Ridge</h3>
-          <p class="price">$42</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/69/2400/1600" alt="Trekking Sandals Pro">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Trekking Sandals Pro</h3>
-          <p class="price">$42</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/70/2400/1600" alt="Trail Gloves Pro">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Trail Gloves Pro</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/71/2400/1600" alt="Leather Boots Ridge">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Leather Boots Ridge</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/72/2400/1600" alt="Trail Gloves Pro">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Trail Gloves Pro</h3>
-          <p class="price">$89</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/73/2400/1600" alt="Denim Jacket Classic">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Denim Jacket Classic</h3>
-          <p class="price">$74</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/74/2400/1600" alt="Denim Jacket Summit">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Denim Jacket Summit</h3>
-          <p class="price">$42</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/75/2400/1600" alt="Fleece Vest Trail">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Fleece Vest Trail</h3>
-          <p class="price">$34</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/76/2400/1600" alt="Fleece Vest Ridge">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Fleece Vest Ridge</h3>
-          <p class="price">$128</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/77/2400/1600" alt="Wool Beanie Ridge">
-        <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Wool Beanie Ridge</h3>
-          <p class="price">$55</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/78/2400/1600" alt="Rain Jacket Trail">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Rain Jacket Trail</h3>
-          <p class="price">$34</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/79/2400/1600" alt="Sun Hat Trail">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Sun Hat Trail</h3>
-          <p class="price">$42</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/80/2400/1600" alt="Down Jacket Trail">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Down Jacket Trail</h3>
-          <p class="price">$128</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/81/2400/1600" alt="Down Jacket Trail">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Down Jacket Trail</h3>
-          <p class="price">$34</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/82/2400/1600" alt="Denim Jacket Pro">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Denim Jacket Pro</h3>
-          <p class="price">$34</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/83/2400/1600" alt="Denim Jacket Trail">
-        <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Denim Jacket Trail</h3>
-          <p class="price">$128</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/84/2400/1600" alt="Water Bottle Classic">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Water Bottle Classic</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Drifter Series</h3>
           <p class="price">$68</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/85/2400/1600" alt="Denim Jacket Pro">
+        <img src="https://picsum.photos/id/41/2400/1600" alt="The Basecamp Collection">
         <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Denim Jacket Pro</h3>
+          <span class="category">New Arrival</span>
+          <h3>The Basecamp Collection</h3>
+          <p class="price">$42</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/42/2400/1600" alt="The Longview Collection">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Longview Collection</h3>
+          <p class="price">$96</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/43/2400/1600" alt="The Ridgeline Collection">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Ridgeline Collection</h3>
+          <p class="price">$68</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/44/2400/1600" alt="The Wanderer Edition">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Wanderer Edition</h3>
+          <p class="price">$128</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/45/2400/1600" alt="The Ridgeline Line">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Ridgeline Line</h3>
+          <p class="price">$96</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/46/2400/1600" alt="The Highline No. 2">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Highline No. 2</h3>
+          <p class="price">$42</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/47/2400/1600" alt="The Backcountry No. 1">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Backcountry No. 1</h3>
+          <p class="price">$110</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/48/2400/1600" alt="The Overland No. 2">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The Overland No. 2</h3>
+          <p class="price">$128</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/49/2400/1600" alt="The Trailhead No. 2">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Trailhead No. 2</h3>
+          <p class="price">$55</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/50/2400/1600" alt="The Timberline Line">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The Timberline Line</h3>
+          <p class="price">$74</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/51/2400/1600" alt="The Outpost No. 2">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Outpost No. 2</h3>
+          <p class="price">$96</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/52/2400/1600" alt="The Trailhead Edition">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Trailhead Edition</h3>
           <p class="price">$34</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/86/2400/1600" alt="Denim Jacket Pro">
+        <img src="https://picsum.photos/id/53/2400/1600" alt="The Wanderer No. 2">
         <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Denim Jacket Pro</h3>
-          <p class="price">$28</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/87/2400/1600" alt="Rain Jacket Trail">
-        <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Rain Jacket Trail</h3>
-          <p class="price">$42</p>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="https://picsum.photos/id/88/2400/1600" alt="Down Jacket Summit">
-        <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Down Jacket Summit</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Wanderer No. 2</h3>
           <p class="price">$110</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/89/2400/1600" alt="Leather Boots Pro">
+        <img src="https://picsum.photos/id/54/2400/1600" alt="The Longview Edition">
         <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Leather Boots Pro</h3>
+          <span class="category">New Arrival</span>
+          <h3>The Longview Edition</h3>
+          <p class="price">$28</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/55/2400/1600" alt="The Fireside Line">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Fireside Line</h3>
+          <p class="price">$28</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/56/2400/1600" alt="The Ridgeline Series">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Ridgeline Series</h3>
+          <p class="price">$74</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/57/2400/1600" alt="The Drifter Edition">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The Drifter Edition</h3>
+          <p class="price">$68</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/58/2400/1600" alt="The Trailhead No. 2">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The Trailhead No. 2</h3>
           <p class="price">$42</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/90/2400/1600" alt="Sun Hat Ridge">
+        <img src="https://picsum.photos/id/59/2400/1600" alt="The Trailhead Set">
         <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Sun Hat Ridge</h3>
+          <span class="category">Limited Run</span>
+          <h3>The Trailhead Set</h3>
+          <p class="price">$96</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/60/2400/1600" alt="The Trailhead Series">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The Trailhead Series</h3>
+          <p class="price">$34</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/61/2400/1600" alt="The North Fork No. 1">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The North Fork No. 1</h3>
+          <p class="price">$89</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/62/2400/1600" alt="The Switchback Line">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Switchback Line</h3>
+          <p class="price">$28</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/63/2400/1600" alt="The Wanderer No. 1">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Wanderer No. 1</h3>
+          <p class="price">$74</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/64/2400/1600" alt="The Trailhead Edition">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The Trailhead Edition</h3>
+          <p class="price">$55</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/65/2400/1600" alt="The Basecamp No. 1">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Basecamp No. 1</h3>
+          <p class="price">$42</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/66/2400/1600" alt="The Waypoint Edition">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The Waypoint Edition</h3>
+          <p class="price">$34</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/67/2400/1600" alt="The Highline Set">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Highline Set</h3>
           <p class="price">$110</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/91/2400/1600" alt="Trail Shorts Classic">
+        <img src="https://picsum.photos/id/68/2400/1600" alt="The Wanderer Line">
         <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Trail Shorts Classic</h3>
+          <span class="category">New Arrival</span>
+          <h3>The Wanderer Line</h3>
+          <p class="price">$110</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/69/2400/1600" alt="The Ridgeline Set">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Ridgeline Set</h3>
+          <p class="price">$55</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/70/2400/1600" alt="The Timberline No. 1">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Timberline No. 1</h3>
+          <p class="price">$96</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/71/2400/1600" alt="The Switchback No. 1">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Switchback No. 1</h3>
           <p class="price">$28</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/92/2400/1600" alt="Sun Hat Pro">
+        <img src="https://picsum.photos/id/72/2400/1600" alt="The Timberline Series">
         <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Sun Hat Pro</h3>
-          <p class="price">$74</p>
+          <span class="category">Staff Pick</span>
+          <h3>The Timberline Series</h3>
+          <p class="price">$89</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/93/2400/1600" alt="Hiking Poles Pro">
+        <img src="https://picsum.photos/id/73/2400/1600" alt="The Outpost Set">
         <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Hiking Poles Pro</h3>
-          <p class="price">$74</p>
+          <span class="category">Staff Pick</span>
+          <h3>The Outpost Set</h3>
+          <p class="price">$96</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/94/2400/1600" alt="Trail Gloves Classic">
+        <img src="https://picsum.photos/id/74/2400/1600" alt="The Timberline Line">
         <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Trail Gloves Classic</h3>
-          <p class="price">$55</p>
+          <span class="category">Limited Run</span>
+          <h3>The Timberline Line</h3>
+          <p class="price">$110</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/95/2400/1600" alt="Camp Mug Summit">
+        <img src="https://picsum.photos/id/75/2400/1600" alt="The Basecamp Edition">
         <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Camp Mug Summit</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Basecamp Edition</h3>
+          <p class="price">$68</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/76/2400/1600" alt="The Wanderer No. 2">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Wanderer No. 2</h3>
+          <p class="price">$110</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/77/2400/1600" alt="The Fireside Collection">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Fireside Collection</h3>
           <p class="price">$28</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/96/2400/1600" alt="Water Bottle Summit">
+        <img src="https://picsum.photos/id/78/2400/1600" alt="The Longview No. 1">
         <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Water Bottle Summit</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Longview No. 1</h3>
+          <p class="price">$110</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/79/2400/1600" alt="The Wanderer No. 2">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Wanderer No. 2</h3>
+          <p class="price">$34</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/80/2400/1600" alt="The Ridgeline No. 2">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Ridgeline No. 2</h3>
+          <p class="price">$34</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/81/2400/1600" alt="The Timberline Series">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Timberline Series</h3>
+          <p class="price">$128</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/82/2400/1600" alt="The Longview No. 2">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Longview No. 2</h3>
+          <p class="price">$28</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/83/2400/1600" alt="The Timberline Line">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Timberline Line</h3>
+          <p class="price">$128</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/84/2400/1600" alt="The Outpost Collection">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Outpost Collection</h3>
           <p class="price">$55</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/97/2400/1600" alt="Camp Mug Pro">
+        <img src="https://picsum.photos/id/85/2400/1600" alt="The Trailhead Collection">
         <div class="product-info">
-          <span class="category">Outdoor Gear</span>
-          <h3>Camp Mug Pro</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Trailhead Collection</h3>
           <p class="price">$89</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/98/2400/1600" alt="Camp Chair Classic">
+        <img src="https://picsum.photos/id/86/2400/1600" alt="The Backcountry Line">
         <div class="product-info">
-          <span class="category">Footwear</span>
-          <h3>Camp Chair Classic</h3>
+          <span class="category">Limited Run</span>
+          <h3>The Backcountry Line</h3>
+          <p class="price">$68</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/87/2400/1600" alt="The North Fork Set">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The North Fork Set</h3>
+          <p class="price">$34</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/88/2400/1600" alt="The Waypoint No. 2">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Waypoint No. 2</h3>
+          <p class="price">$128</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/89/2400/1600" alt="The Ridgeline No. 2">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Ridgeline No. 2</h3>
           <p class="price">$55</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/99/2400/1600" alt="Sun Hat Trail">
+        <img src="https://picsum.photos/id/90/2400/1600" alt="The Basecamp Collection">
         <div class="product-info">
-          <span class="category">Apparel</span>
-          <h3>Sun Hat Trail</h3>
+          <span class="category">Bestseller</span>
+          <h3>The Basecamp Collection</h3>
+          <p class="price">$34</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/91/2400/1600" alt="The North Fork Collection">
+        <div class="product-info">
+          <span class="category">Limited Run</span>
+          <h3>The North Fork Collection</h3>
+          <p class="price">$42</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/92/2400/1600" alt="The Switchback No. 2">
+        <div class="product-info">
+          <span class="category">New Arrival</span>
+          <h3>The Switchback No. 2</h3>
+          <p class="price">$68</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/93/2400/1600" alt="The Backcountry Set">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Backcountry Set</h3>
+          <p class="price">$110</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/94/2400/1600" alt="The Outpost Line">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Outpost Line</h3>
+          <p class="price">$34</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/95/2400/1600" alt="The Overland Series">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Overland Series</h3>
+          <p class="price">$34</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/96/2400/1600" alt="The Overland Collection">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Overland Collection</h3>
+          <p class="price">$128</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/97/2400/1600" alt="The Fireside Collection">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Fireside Collection</h3>
           <p class="price">$55</p>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/100/2400/1600" alt="Trail Backpack Classic">
+        <img src="https://picsum.photos/id/98/2400/1600" alt="The Drifter No. 1">
         <div class="product-info">
-          <span class="category">Accessories</span>
-          <h3>Trail Backpack Classic</h3>
+          <span class="category">New Arrival</span>
+          <h3>The Drifter No. 1</h3>
+          <p class="price">$68</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/99/2400/1600" alt="The Ridgeline Line">
+        <div class="product-info">
+          <span class="category">Staff Pick</span>
+          <h3>The Ridgeline Line</h3>
           <p class="price">$89</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://picsum.photos/id/100/2400/1600" alt="The Wanderer Series">
+        <div class="product-info">
+          <span class="category">Bestseller</span>
+          <h3>The Wanderer Series</h3>
+          <p class="price">$74</p>
         </div>
       </div>
 </div>
