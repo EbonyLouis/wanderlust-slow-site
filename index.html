@@ -5,20 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wanderlust Goods — Outdoor Gear &amp; Apparel</title>
 
-<!-- "Site Insights" analytics tag — added by marketing, blocks rendering while it loads and parses -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-<script>
-  // Site Insights v2 — visitor tracking (never actually wired up to anything)
-  window.__siteInsights = { "queue": [], "version": "2.0.4" };
-  for (let i = 0; i < 200000; i++) {
-    window.__siteInsights.queue.push({ ts: i, evt: "noop" });
-  }
-</script>
-
-<!-- Brand font, added for a rebrand that got shelved — never referenced in the CSS below -->
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: Georgia, 'Times New Roman', serif; background: #f7f5f0; color: #2b2b28; }
@@ -71,8 +57,8 @@
 </header>
 
 <div class="hero">
-  <video autoplay muted loop playsinline preload="auto">
-    <source src="https://res.cloudinary.com/demo/video/upload/elephants.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline preload="metadata" poster="https://res.cloudinary.com/dknhj3zvn/video/upload/so_0,f_jpg,q_auto/demo/elephants.jpg">
+    <source src="https://res.cloudinary.com/dknhj3zvn/video/upload/q_auto,f_auto,vc_auto/demo/elephants.mp4" type="video/mp4">
   </video>
   <div class="hero-text">
     <h2>Gear built for the trail.</h2>
@@ -87,15 +73,15 @@
 
 <div class="featured-video">
   <h3>See the Ridge Pack in action</h3>
-  <video controls preload="auto">
-    <source src="https://res.cloudinary.com/demo/video/upload/dog.mp4" type="video/mp4">
+  <video controls preload="none" poster="https://res.cloudinary.com/dknhj3zvn/video/upload/so_0,f_jpg,q_auto/demo/dog.jpg" loading="lazy">
+    <source src="https://res.cloudinary.com/dknhj3zvn/video/upload/q_auto,f_auto,vc_auto/demo/dog.mp4" type="video/mp4">
   </video>
 </div>
 
 <div class="grid">
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/1/2400/1600" alt="The Backcountry Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/1/2400/1600" alt="The Backcountry Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Backcountry Series</h3>
@@ -104,7 +90,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/2/2400/1600" alt="The Trailhead Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/2/2400/1600" alt="The Trailhead Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Trailhead Edition</h3>
@@ -113,7 +99,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/3/2400/1600" alt="The Backcountry Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/3/2400/1600" alt="The Backcountry Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Backcountry Line</h3>
@@ -122,7 +108,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/4/2400/1600" alt="The Longview No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/4/2400/1600" alt="The Longview No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Longview No. 1</h3>
@@ -131,7 +117,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/5/2400/1600" alt="The Ridgeline Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/5/2400/1600" alt="The Ridgeline Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Ridgeline Edition</h3>
@@ -140,7 +126,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/6/2400/1600" alt="The Drifter Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/6/2400/1600" alt="The Drifter Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Drifter Edition</h3>
@@ -149,7 +135,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/7/2400/1600" alt="The Trailhead No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/7/2400/1600" alt="The Trailhead No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Trailhead No. 1</h3>
@@ -158,7 +144,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/8/2400/1600" alt="The Highline Set">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/8/2400/1600" alt="The Highline Set" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Highline Set</h3>
@@ -167,7 +153,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/9/2400/1600" alt="The Fireside No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/9/2400/1600" alt="The Fireside No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Fireside No. 1</h3>
@@ -176,7 +162,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/10/2400/1600" alt="The Basecamp Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/10/2400/1600" alt="The Basecamp Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Basecamp Edition</h3>
@@ -185,7 +171,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/11/2400/1600" alt="The Ridgeline No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/11/2400/1600" alt="The Ridgeline No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Ridgeline No. 1</h3>
@@ -194,7 +180,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/12/2400/1600" alt="The Switchback Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/12/2400/1600" alt="The Switchback Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Switchback Collection</h3>
@@ -203,7 +189,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/13/2400/1600" alt="The Highline Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/13/2400/1600" alt="The Highline Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Highline Series</h3>
@@ -212,7 +198,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/14/2400/1600" alt="The Outpost No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/14/2400/1600" alt="The Outpost No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Outpost No. 1</h3>
@@ -221,7 +207,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/15/2400/1600" alt="The Switchback Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/15/2400/1600" alt="The Switchback Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Switchback Line</h3>
@@ -230,7 +216,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/16/2400/1600" alt="The Longview Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/16/2400/1600" alt="The Longview Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Longview Edition</h3>
@@ -239,7 +225,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/17/2400/1600" alt="The Backcountry Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/17/2400/1600" alt="The Backcountry Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Backcountry Edition</h3>
@@ -248,7 +234,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/18/2400/1600" alt="The Switchback Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/18/2400/1600" alt="The Switchback Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Switchback Edition</h3>
@@ -257,7 +243,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/19/2400/1600" alt="The Overland No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/19/2400/1600" alt="The Overland No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Overland No. 1</h3>
@@ -266,7 +252,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/20/2400/1600" alt="The North Fork Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/20/2400/1600" alt="The North Fork Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The North Fork Collection</h3>
@@ -275,7 +261,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/21/2400/1600" alt="The Fireside Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/21/2400/1600" alt="The Fireside Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Fireside Line</h3>
@@ -284,7 +270,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/22/2400/1600" alt="The Drifter Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/22/2400/1600" alt="The Drifter Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Drifter Line</h3>
@@ -293,7 +279,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/23/2400/1600" alt="The Waypoint No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/23/2400/1600" alt="The Waypoint No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Waypoint No. 1</h3>
@@ -302,7 +288,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/24/2400/1600" alt="The Backcountry Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/24/2400/1600" alt="The Backcountry Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Backcountry Collection</h3>
@@ -311,7 +297,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/25/2400/1600" alt="The Switchback Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/25/2400/1600" alt="The Switchback Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Switchback Series</h3>
@@ -320,7 +306,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/26/2400/1600" alt="The Overland Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/26/2400/1600" alt="The Overland Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Overland Series</h3>
@@ -329,7 +315,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/27/2400/1600" alt="The Trailhead Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/27/2400/1600" alt="The Trailhead Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Trailhead Line</h3>
@@ -338,7 +324,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/28/2400/1600" alt="The Outpost Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/28/2400/1600" alt="The Outpost Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Outpost Line</h3>
@@ -347,7 +333,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/29/2400/1600" alt="The Overland Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/29/2400/1600" alt="The Overland Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Overland Edition</h3>
@@ -356,7 +342,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/30/2400/1600" alt="The Fireside No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/30/2400/1600" alt="The Fireside No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Fireside No. 2</h3>
@@ -365,7 +351,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/31/2400/1600" alt="The North Fork Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/31/2400/1600" alt="The North Fork Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The North Fork Edition</h3>
@@ -374,7 +360,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/32/2400/1600" alt="The Ridgeline Set">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/32/2400/1600" alt="The Ridgeline Set" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Ridgeline Set</h3>
@@ -383,7 +369,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/33/2400/1600" alt="The Basecamp Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/33/2400/1600" alt="The Basecamp Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Basecamp Line</h3>
@@ -392,7 +378,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/34/2400/1600" alt="The Longview Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/34/2400/1600" alt="The Longview Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Longview Series</h3>
@@ -401,7 +387,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/35/2400/1600" alt="The Longview No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/35/2400/1600" alt="The Longview No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Longview No. 1</h3>
@@ -410,7 +396,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/36/2400/1600" alt="The Drifter Set">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/36/2400/1600" alt="The Drifter Set" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Drifter Set</h3>
@@ -419,7 +405,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/37/2400/1600" alt="The Backcountry No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/37/2400/1600" alt="The Backcountry No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Backcountry No. 2</h3>
@@ -428,7 +414,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/38/2400/1600" alt="The Ridgeline Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/38/2400/1600" alt="The Ridgeline Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Ridgeline Collection</h3>
@@ -437,7 +423,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/39/2400/1600" alt="The Waypoint Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/39/2400/1600" alt="The Waypoint Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Waypoint Series</h3>
@@ -446,7 +432,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/40/2400/1600" alt="The Drifter Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/40/2400/1600" alt="The Drifter Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Drifter Series</h3>
@@ -455,7 +441,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/41/2400/1600" alt="The Basecamp Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/41/2400/1600" alt="The Basecamp Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Basecamp Collection</h3>
@@ -464,7 +450,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/42/2400/1600" alt="The Longview Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/42/2400/1600" alt="The Longview Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Longview Collection</h3>
@@ -473,7 +459,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/43/2400/1600" alt="The Ridgeline Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/43/2400/1600" alt="The Ridgeline Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Ridgeline Collection</h3>
@@ -482,7 +468,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/44/2400/1600" alt="The Wanderer Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/44/2400/1600" alt="The Wanderer Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Wanderer Edition</h3>
@@ -491,7 +477,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/45/2400/1600" alt="The Ridgeline Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/45/2400/1600" alt="The Ridgeline Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Ridgeline Line</h3>
@@ -500,7 +486,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/46/2400/1600" alt="The Highline No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/46/2400/1600" alt="The Highline No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Highline No. 2</h3>
@@ -509,7 +495,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/47/2400/1600" alt="The Backcountry No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/47/2400/1600" alt="The Backcountry No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Backcountry No. 1</h3>
@@ -518,7 +504,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/48/2400/1600" alt="The Overland No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/48/2400/1600" alt="The Overland No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Overland No. 2</h3>
@@ -527,7 +513,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/49/2400/1600" alt="The Trailhead No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/49/2400/1600" alt="The Trailhead No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Trailhead No. 2</h3>
@@ -536,7 +522,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/50/2400/1600" alt="The Timberline Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/50/2400/1600" alt="The Timberline Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Timberline Line</h3>
@@ -545,7 +531,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/51/2400/1600" alt="The Outpost No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/51/2400/1600" alt="The Outpost No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Outpost No. 2</h3>
@@ -554,7 +540,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/52/2400/1600" alt="The Trailhead Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/52/2400/1600" alt="The Trailhead Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Trailhead Edition</h3>
@@ -563,7 +549,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/53/2400/1600" alt="The Wanderer No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/53/2400/1600" alt="The Wanderer No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Wanderer No. 2</h3>
@@ -572,7 +558,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/54/2400/1600" alt="The Longview Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/54/2400/1600" alt="The Longview Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Longview Edition</h3>
@@ -581,7 +567,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/55/2400/1600" alt="The Fireside Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/55/2400/1600" alt="The Fireside Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Fireside Line</h3>
@@ -590,7 +576,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/56/2400/1600" alt="The Ridgeline Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/56/2400/1600" alt="The Ridgeline Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Ridgeline Series</h3>
@@ -599,7 +585,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/57/2400/1600" alt="The Drifter Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/57/2400/1600" alt="The Drifter Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Drifter Edition</h3>
@@ -608,7 +594,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/58/2400/1600" alt="The Trailhead No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/58/2400/1600" alt="The Trailhead No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Trailhead No. 2</h3>
@@ -617,7 +603,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/59/2400/1600" alt="The Trailhead Set">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/59/2400/1600" alt="The Trailhead Set" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Trailhead Set</h3>
@@ -626,7 +612,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/60/2400/1600" alt="The Trailhead Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/60/2400/1600" alt="The Trailhead Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Trailhead Series</h3>
@@ -635,7 +621,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/61/2400/1600" alt="The North Fork No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/61/2400/1600" alt="The North Fork No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The North Fork No. 1</h3>
@@ -644,7 +630,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/62/2400/1600" alt="The Switchback Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/62/2400/1600" alt="The Switchback Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Switchback Line</h3>
@@ -653,7 +639,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/63/2400/1600" alt="The Wanderer No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/63/2400/1600" alt="The Wanderer No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Wanderer No. 1</h3>
@@ -662,7 +648,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/64/2400/1600" alt="The Trailhead Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/64/2400/1600" alt="The Trailhead Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Trailhead Edition</h3>
@@ -671,7 +657,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/65/2400/1600" alt="The Basecamp No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/65/2400/1600" alt="The Basecamp No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Basecamp No. 1</h3>
@@ -680,7 +666,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/66/2400/1600" alt="The Waypoint Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/66/2400/1600" alt="The Waypoint Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Waypoint Edition</h3>
@@ -689,7 +675,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/67/2400/1600" alt="The Highline Set">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/67/2400/1600" alt="The Highline Set" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Highline Set</h3>
@@ -698,7 +684,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/68/2400/1600" alt="The Wanderer Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/68/2400/1600" alt="The Wanderer Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Wanderer Line</h3>
@@ -707,7 +693,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/69/2400/1600" alt="The Ridgeline Set">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/69/2400/1600" alt="The Ridgeline Set" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Ridgeline Set</h3>
@@ -716,7 +702,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/70/2400/1600" alt="The Timberline No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/70/2400/1600" alt="The Timberline No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Timberline No. 1</h3>
@@ -725,7 +711,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/71/2400/1600" alt="The Switchback No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/71/2400/1600" alt="The Switchback No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Switchback No. 1</h3>
@@ -734,7 +720,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/72/2400/1600" alt="The Timberline Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/72/2400/1600" alt="The Timberline Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Timberline Series</h3>
@@ -743,7 +729,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/73/2400/1600" alt="The Outpost Set">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/73/2400/1600" alt="The Outpost Set" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Outpost Set</h3>
@@ -752,7 +738,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/74/2400/1600" alt="The Timberline Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/74/2400/1600" alt="The Timberline Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Timberline Line</h3>
@@ -761,7 +747,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/75/2400/1600" alt="The Basecamp Edition">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/75/2400/1600" alt="The Basecamp Edition" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Basecamp Edition</h3>
@@ -770,7 +756,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/76/2400/1600" alt="The Wanderer No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/76/2400/1600" alt="The Wanderer No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Wanderer No. 2</h3>
@@ -779,7 +765,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/77/2400/1600" alt="The Fireside Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/77/2400/1600" alt="The Fireside Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Fireside Collection</h3>
@@ -788,7 +774,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/78/2400/1600" alt="The Longview No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/78/2400/1600" alt="The Longview No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Longview No. 1</h3>
@@ -797,7 +783,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/79/2400/1600" alt="The Wanderer No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/79/2400/1600" alt="The Wanderer No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Wanderer No. 2</h3>
@@ -806,7 +792,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/80/2400/1600" alt="The Ridgeline No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/80/2400/1600" alt="The Ridgeline No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Ridgeline No. 2</h3>
@@ -815,7 +801,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/81/2400/1600" alt="The Timberline Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/81/2400/1600" alt="The Timberline Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Timberline Series</h3>
@@ -824,7 +810,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/82/2400/1600" alt="The Longview No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/82/2400/1600" alt="The Longview No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Longview No. 2</h3>
@@ -833,7 +819,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/83/2400/1600" alt="The Timberline Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/83/2400/1600" alt="The Timberline Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Timberline Line</h3>
@@ -842,7 +828,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/84/2400/1600" alt="The Outpost Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/84/2400/1600" alt="The Outpost Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Outpost Collection</h3>
@@ -851,7 +837,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/85/2400/1600" alt="The Trailhead Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/85/2400/1600" alt="The Trailhead Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Trailhead Collection</h3>
@@ -860,7 +846,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/86/2400/1600" alt="The Backcountry Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/86/2400/1600" alt="The Backcountry Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The Backcountry Line</h3>
@@ -869,7 +855,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/87/2400/1600" alt="The North Fork Set">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/87/2400/1600" alt="The North Fork Set" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The North Fork Set</h3>
@@ -878,7 +864,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/88/2400/1600" alt="The Waypoint No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/88/2400/1600" alt="The Waypoint No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Waypoint No. 2</h3>
@@ -887,7 +873,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/89/2400/1600" alt="The Ridgeline No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/89/2400/1600" alt="The Ridgeline No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Ridgeline No. 2</h3>
@@ -896,7 +882,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/90/2400/1600" alt="The Basecamp Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/90/2400/1600" alt="The Basecamp Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Basecamp Collection</h3>
@@ -905,7 +891,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/91/2400/1600" alt="The North Fork Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/91/2400/1600" alt="The North Fork Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Limited Run</span>
           <h3>The North Fork Collection</h3>
@@ -914,7 +900,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/92/2400/1600" alt="The Switchback No. 2">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/92/2400/1600" alt="The Switchback No. 2" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Switchback No. 2</h3>
@@ -923,7 +909,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/93/2400/1600" alt="The Backcountry Set">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/93/2400/1600" alt="The Backcountry Set" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Backcountry Set</h3>
@@ -932,7 +918,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/94/2400/1600" alt="The Outpost Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/94/2400/1600" alt="The Outpost Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Outpost Line</h3>
@@ -941,7 +927,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/95/2400/1600" alt="The Overland Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/95/2400/1600" alt="The Overland Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Overland Series</h3>
@@ -950,7 +936,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/96/2400/1600" alt="The Overland Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/96/2400/1600" alt="The Overland Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Overland Collection</h3>
@@ -959,7 +945,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/97/2400/1600" alt="The Fireside Collection">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/97/2400/1600" alt="The Fireside Collection" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Fireside Collection</h3>
@@ -968,7 +954,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/98/2400/1600" alt="The Drifter No. 1">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/98/2400/1600" alt="The Drifter No. 1" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">New Arrival</span>
           <h3>The Drifter No. 1</h3>
@@ -977,7 +963,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/99/2400/1600" alt="The Ridgeline Line">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/99/2400/1600" alt="The Ridgeline Line" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Staff Pick</span>
           <h3>The Ridgeline Line</h3>
@@ -986,7 +972,7 @@
       </div>
 
       <div class="product-card">
-        <img src="https://picsum.photos/id/100/2400/1600" alt="The Wanderer Series">
+        <img src="https://res.cloudinary.com/dknhj3zvn/image/fetch/f_auto,q_auto,w_600,c_limit/https://picsum.photos/id/100/2400/1600" alt="The Wanderer Series" loading="lazy" width="600" height="400">
         <div class="product-info">
           <span class="category">Bestseller</span>
           <h3>The Wanderer Series</h3>
